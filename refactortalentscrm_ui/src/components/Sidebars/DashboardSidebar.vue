@@ -25,50 +25,56 @@
 	 
 			
 				<a-menu-item>
-					<router-link to="/candidates">
-						<span class="label">Candidates</span>
+					<router-link to="/${menuItem.name.camelPlural}">
+						<span class="label">${menuItem.name.displayLabelPlural}</span>
 					</router-link>
 				</a-menu-item>
 		
 				<a-menu-item>
-					<router-link to="/jobs">
-						<span class="label">Jobs</span>
+					<router-link to="/${menuItem.name.camelPlural}">
+						<span class="label">${menuItem.name.displayLabelPlural}</span>
 					</router-link>
 				</a-menu-item>
 		
 				<a-menu-item>
-					<router-link to="/applications">
-						<span class="label">Applications</span>
+					<router-link to="/${menuItem.name.camelPlural}">
+						<span class="label">${menuItem.name.displayLabelPlural}</span>
 					</router-link>
 				</a-menu-item>
 		
 				<a-menu-item>
-					<router-link to="/interviews">
-						<span class="label">Interviews</span>
+					<router-link to="/${menuItem.name.camelPlural}">
+						<span class="label">${menuItem.name.displayLabelPlural}</span>
 					</router-link>
 				</a-menu-item>
 		
 				<a-menu-item>
-					<router-link to="/notes">
-						<span class="label">Notes</span>
+					<router-link to="/${menuItem.name.camelPlural}">
+						<span class="label">${menuItem.name.displayLabelPlural}</span>
 					</router-link>
 				</a-menu-item>
 		
 				<a-menu-item>
-					<router-link to="/recruiters">
-						<span class="label">Recruiters</span>
+					<router-link to="/${menuItem.name.camelPlural}">
+						<span class="label">${menuItem.name.displayLabelPlural}</span>
 					</router-link>
 				</a-menu-item>
 		
 				<a-menu-item>
-					<router-link to="/assignments">
-						<span class="label">Assignments</span>
+					<router-link to="/${menuItem.name.camelPlural}">
+						<span class="label">${menuItem.name.displayLabelPlural}</span>
 					</router-link>
 				</a-menu-item>
 		
 				<a-menu-item>
-					<router-link to="/schedules">
-						<span class="label">Schedules</span>
+					<router-link to="/${menuItem.name.camelPlural}">
+						<span class="label">${menuItem.name.displayLabelPlural}</span>
+					</router-link>
+				</a-menu-item>
+		
+				<a-menu-item>
+					<router-link to="/${menuItem.name.camelPlural}">
+						<span class="label">${menuItem.name.displayLabelPlural}</span>
 					</router-link>
 				</a-menu-item>
 		

@@ -1,21 +1,23 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Candidates from  '@/pages/Candidates.vue';
-import CandidateDetail from  '@/pages/CandidateDetail.vue';
-import Jobs from  '@/pages/Jobs.vue';
-import JobDetail from  '@/pages/JobDetail.vue';
-import Applications from  '@/pages/Applications.vue';
-import ApplicationDetail from  '@/pages/ApplicationDetail.vue';
-import Interviews from  '@/pages/Interviews.vue';
-import InterviewDetail from  '@/pages/InterviewDetail.vue';
-import Notes from  '@/pages/Notes.vue';
-import NoteDetail from  '@/pages/NoteDetail.vue';
-import Recruiters from  '@/pages/Recruiters.vue';
-import RecruiterDetail from  '@/pages/RecruiterDetail.vue';
-import Assignments from  '@/pages/Assignments.vue';
-import AssignmentDetail from  '@/pages/AssignmentDetail.vue';
-import Schedules from  '@/pages/Schedules.vue';
-import ScheduleDetail from  '@/pages/ScheduleDetail.vue';
+import $domainClass.name.PascalPlural from  '@/pages/${domainClass.name.PascalPlural}.vue';
+import ${domainClass.name.Pascal}Detail from  '@/pages/${domainClass.name.Pascal}Detail.vue';
+import $domainClass.name.PascalPlural from  '@/pages/${domainClass.name.PascalPlural}.vue';
+import ${domainClass.name.Pascal}Detail from  '@/pages/${domainClass.name.Pascal}Detail.vue';
+import $domainClass.name.PascalPlural from  '@/pages/${domainClass.name.PascalPlural}.vue';
+import ${domainClass.name.Pascal}Detail from  '@/pages/${domainClass.name.Pascal}Detail.vue';
+import $domainClass.name.PascalPlural from  '@/pages/${domainClass.name.PascalPlural}.vue';
+import ${domainClass.name.Pascal}Detail from  '@/pages/${domainClass.name.Pascal}Detail.vue';
+import $domainClass.name.PascalPlural from  '@/pages/${domainClass.name.PascalPlural}.vue';
+import ${domainClass.name.Pascal}Detail from  '@/pages/${domainClass.name.Pascal}Detail.vue';
+import $domainClass.name.PascalPlural from  '@/pages/${domainClass.name.PascalPlural}.vue';
+import ${domainClass.name.Pascal}Detail from  '@/pages/${domainClass.name.Pascal}Detail.vue';
+import $domainClass.name.PascalPlural from  '@/pages/${domainClass.name.PascalPlural}.vue';
+import ${domainClass.name.Pascal}Detail from  '@/pages/${domainClass.name.Pascal}Detail.vue';
+import $domainClass.name.PascalPlural from  '@/pages/${domainClass.name.PascalPlural}.vue';
+import ${domainClass.name.Pascal}Detail from  '@/pages/${domainClass.name.Pascal}Detail.vue';
+import $domainClass.name.PascalPlural from  '@/pages/${domainClass.name.PascalPlural}.vue';
+import ${domainClass.name.Pascal}Detail from  '@/pages/${domainClass.name.Pascal}Detail.vue';
 
 Vue.use(VueRouter)
 
@@ -28,8 +30,8 @@ let routes = [
 	{
 		path: '/',
 		name: 'Home',
-			redirect: '/candidates',
-									},
+			redirect: '/$domainClass.name.camelPlural',
+										},
 	{
 		path: '/dashboard',
 		name: 'Dashboard',
@@ -46,107 +48,120 @@ let routes = [
 		component: () => import('../views/Layout.vue'),
 	},
 	{
-		path: '/candidates',
-		name: 'Candidates',
+		path: '/$domainClass.name.camelPlural',
+		name: '$domainClass.name.PascalPlural',
 		layout: "dashboard",
-		component: Candidates,
+		component: $domainClass.name.PascalPlural,
 	},
 	{
-	    path: '/candidate/:candidateId', 
-	    name: 'CandidateDetail',
+	    path: '/$domainClass.name.camel/:${domainClass.name.camel}Id', 
+	    name: '${domainClass.name.Pascal}Detail',
 		layout: "dashboard",
-	    component: CandidateDetail,
+	    component: ${domainClass.name.Pascal}Detail,
 	    props: true // Pass route params as props to the component
   	},
 	{
-		path: '/jobs',
-		name: 'Jobs',
+		path: '/$domainClass.name.camelPlural',
+		name: '$domainClass.name.PascalPlural',
 		layout: "dashboard",
-		component: Jobs,
+		component: $domainClass.name.PascalPlural,
 	},
 	{
-	    path: '/job/:jobId', 
-	    name: 'JobDetail',
+	    path: '/$domainClass.name.camel/:${domainClass.name.camel}Id', 
+	    name: '${domainClass.name.Pascal}Detail',
 		layout: "dashboard",
-	    component: JobDetail,
+	    component: ${domainClass.name.Pascal}Detail,
 	    props: true // Pass route params as props to the component
   	},
 	{
-		path: '/applications',
-		name: 'Applications',
+		path: '/$domainClass.name.camelPlural',
+		name: '$domainClass.name.PascalPlural',
 		layout: "dashboard",
-		component: Applications,
+		component: $domainClass.name.PascalPlural,
 	},
 	{
-	    path: '/application/:applicationId', 
-	    name: 'ApplicationDetail',
+	    path: '/$domainClass.name.camel/:${domainClass.name.camel}Id', 
+	    name: '${domainClass.name.Pascal}Detail',
 		layout: "dashboard",
-	    component: ApplicationDetail,
+	    component: ${domainClass.name.Pascal}Detail,
 	    props: true // Pass route params as props to the component
   	},
 	{
-		path: '/interviews',
-		name: 'Interviews',
+		path: '/$domainClass.name.camelPlural',
+		name: '$domainClass.name.PascalPlural',
 		layout: "dashboard",
-		component: Interviews,
+		component: $domainClass.name.PascalPlural,
 	},
 	{
-	    path: '/interview/:interviewId', 
-	    name: 'InterviewDetail',
+	    path: '/$domainClass.name.camel/:${domainClass.name.camel}Id', 
+	    name: '${domainClass.name.Pascal}Detail',
 		layout: "dashboard",
-	    component: InterviewDetail,
+	    component: ${domainClass.name.Pascal}Detail,
 	    props: true // Pass route params as props to the component
   	},
 	{
-		path: '/notes',
-		name: 'Notes',
+		path: '/$domainClass.name.camelPlural',
+		name: '$domainClass.name.PascalPlural',
 		layout: "dashboard",
-		component: Notes,
+		component: $domainClass.name.PascalPlural,
 	},
 	{
-	    path: '/note/:noteId', 
-	    name: 'NoteDetail',
+	    path: '/$domainClass.name.camel/:${domainClass.name.camel}Id', 
+	    name: '${domainClass.name.Pascal}Detail',
 		layout: "dashboard",
-	    component: NoteDetail,
+	    component: ${domainClass.name.Pascal}Detail,
 	    props: true // Pass route params as props to the component
   	},
 	{
-		path: '/recruiters',
-		name: 'Recruiters',
+		path: '/$domainClass.name.camelPlural',
+		name: '$domainClass.name.PascalPlural',
 		layout: "dashboard",
-		component: Recruiters,
+		component: $domainClass.name.PascalPlural,
 	},
 	{
-	    path: '/recruiter/:recruiterId', 
-	    name: 'RecruiterDetail',
+	    path: '/$domainClass.name.camel/:${domainClass.name.camel}Id', 
+	    name: '${domainClass.name.Pascal}Detail',
 		layout: "dashboard",
-	    component: RecruiterDetail,
+	    component: ${domainClass.name.Pascal}Detail,
 	    props: true // Pass route params as props to the component
   	},
 	{
-		path: '/assignments',
-		name: 'Assignments',
+		path: '/$domainClass.name.camelPlural',
+		name: '$domainClass.name.PascalPlural',
 		layout: "dashboard",
-		component: Assignments,
+		component: $domainClass.name.PascalPlural,
 	},
 	{
-	    path: '/assignment/:assignmentId', 
-	    name: 'AssignmentDetail',
+	    path: '/$domainClass.name.camel/:${domainClass.name.camel}Id', 
+	    name: '${domainClass.name.Pascal}Detail',
 		layout: "dashboard",
-	    component: AssignmentDetail,
+	    component: ${domainClass.name.Pascal}Detail,
 	    props: true // Pass route params as props to the component
   	},
 	{
-		path: '/schedules',
-		name: 'Schedules',
+		path: '/$domainClass.name.camelPlural',
+		name: '$domainClass.name.PascalPlural',
 		layout: "dashboard",
-		component: Schedules,
+		component: $domainClass.name.PascalPlural,
 	},
 	{
-	    path: '/schedule/:scheduleId', 
-	    name: 'ScheduleDetail',
+	    path: '/$domainClass.name.camel/:${domainClass.name.camel}Id', 
+	    name: '${domainClass.name.Pascal}Detail',
 		layout: "dashboard",
-	    component: ScheduleDetail,
+	    component: ${domainClass.name.Pascal}Detail,
+	    props: true // Pass route params as props to the component
+  	},
+	{
+		path: '/$domainClass.name.camelPlural',
+		name: '$domainClass.name.PascalPlural',
+		layout: "dashboard",
+		component: $domainClass.name.PascalPlural,
+	},
+	{
+	    path: '/$domainClass.name.camel/:${domainClass.name.camel}Id', 
+	    name: '${domainClass.name.Pascal}Detail',
+		layout: "dashboard",
+	    component: ${domainClass.name.Pascal}Detail,
 	    props: true // Pass route params as props to the component
   	},
 	{
